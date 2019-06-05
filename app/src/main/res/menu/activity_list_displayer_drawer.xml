@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="News">
+        <menu>
+            <item
+                android:id="@+id/menu_movie_news"
+                android:title="Movies"/>
+            <item
+                android:id="@+id/menu_tv_news"
+                android:title="TV Shows"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_movies"
+        android:title="Movies">
+        <menu>
+            <item
+                android:id="@+id/menu_movies_top"
+                android:title="Top Rated"/>
+            <item
+                android:id="@+id/menu_movies_discover"
+                android:title="Discover"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_tv"
+        android:title="TV Shows">
+        <menu>
+            <item
+                android:id="@+id/menu_tv_top"
+                android:title="Top rated"/>
+            <item
+                android:id="@+id/menu_tv_discover"
+                android:title="Discover"/>
+        </menu>
+    </item>
+</menu>
